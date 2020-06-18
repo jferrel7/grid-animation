@@ -8,4 +8,5 @@
 .rainbow:hover {
   background-image: linear-gradient(to left, red, orange, yellow, green, blue, purple);
   transition: background-image 300ms ease;
+  text-decoration: none;
 }
