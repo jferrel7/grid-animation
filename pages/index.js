@@ -12,7 +12,7 @@ const Index = props => {
         <div className="container">
           <motion.div variants={fadeInUp}>
             <h1>Card Grid Animation</h1>
-            <p className="overview">An experiment in animating a card within a "grid" of cards to grow in height and width when selected. The first example uses CSS grid layout and the second uses CSS flexbox layout to establish the grid of cards.</p>
+            <p className="overview">An experiment in animating a card within a grid of cards to grow in height and width when selected. The first example uses CSS grid layout and the second uses CSS flexbox layout to establish the grid of cards.</p>
             <ul>
               <li>
                 <Rainbow path="/css-grid" title="CSS Grid example" />
@@ -24,7 +24,7 @@ const Index = props => {
             <p><a href="https://www.framer.com/motion/" title="Framer Motion (beta)" className={styles.rainbow}>Framer Motion (beta)</a> is used to auto-magically animate the expanded card and to animate page transitions.</p>
             <p>Powered by <a href="https://nextjs.org" title="NextJS" className={styles.rainbow}>NextJS</a></p>
             <p>Deployed and hosted with <a href="https://vercel.com/" title="Vercel (formerly ZEIT)" className={styles.rainbow}>Vercel (formerly ZEIT)</a></p>
-            <p>By <a href="https://www.natural-logic.com" title="Jason Ferrell" className={styles.rainbow}>Jason Ferrell</a></p>
+            <p>Code by <a href="https://www.natural-logic.com" title="Jason Ferrell" className={styles.rainbow}>Jason Ferrell</a></p>
           </motion.div>
         </div>
       </motion.section>
