@@ -24,7 +24,8 @@ const Index = props => {
             <p><a href="https://www.framer.com/motion/" title="Framer Motion (beta)" className={styles.rainbow}>Framer Motion (beta)</a> is used to auto-magically animate the expanded card and to animate page transitions.</p>
             <p>Powered by <a href="https://nextjs.org" title="NextJS" className={styles.rainbow}>NextJS</a></p>
             <p>Deployed and hosted with <a href="https://vercel.com/" title="Vercel (formerly ZEIT)" className={styles.rainbow}>Vercel (formerly ZEIT)</a></p>
-            <p>Code by <a href="https://www.natural-logic.com" title="Jason Ferrell" className={styles.rainbow}>Jason Ferrell</a></p>
+            <p>Dev by <a href="https://www.natural-logic.com" title="Jason Ferrell" className={styles.rainbow}>Jason Ferrell</a></p>
+            <p>Source code at <a href="https://github.com/jferrel7/grid-animation" title="GitHub" className={styles.rainbow}>GitHub</a></p>
           </motion.div>
         </div>
       </motion.section>
